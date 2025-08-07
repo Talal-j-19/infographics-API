@@ -1,0 +1,23 @@
+# Headless Infographic API Requirements
+
+# Core FastAPI dependencies
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+pydantic==2.5.0
+
+# Headless browser automation
+playwright==1.40.0
+
+# Google Generative AI
+google-generativeai>=0.8.0
+
+# Environment variables
+python-dotenv==1.0.0
+
+# Additional utilities
+python-multipart==0.0.6
+
+# Development and testing
+pytest==7.4.3
+httpx==0.25.2
+requests==2.31.0
